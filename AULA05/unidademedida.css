@@ -1,0 +1,23 @@
+*{
+  margin: 5px;
+}
+
+.box1{
+background-color: aqua;
+width: 250px;
+height: 250px;
+ 
+}
+.box2{
+background-image: url(jovens\ titans.jfif);
+ background-color: aquamarine;
+ width: 33vmin; /* 1200*/
+height: 25vmax; /*1920*/
+
+}
+.box3{
+background-color: blue;
+width: 250px;
+height: 250px;
+
+}
