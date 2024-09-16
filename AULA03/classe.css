@@ -1,0 +1,11 @@
+.liraThiago{
+  color: rgb(5, 128, 128);
+  font-style: italic;
+  text-align: right;
+  padding: 50px;
+}
+p{
+  color: rgb(24, 24, 128);
+  font-style: normal;
+  text-align: justify;
+}

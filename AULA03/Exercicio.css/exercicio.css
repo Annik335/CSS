@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+  background-color: rgb(103, 81, 124);
+}
+p{
+  color: aliceblue;
+  line-height: 200%;
+  font-style: italic;
+}
+h1{
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  text-shadow: 5px 8px 5px rgb(223, 217, 194)
+}
+img{
+  filter: drop-shadow(20px 15px 6px);
+}
+.annik{
+   padding: 50px;
+   text-align: center;
+}
+.annik{
+  
+  font-family:Arial, Helvetica, sans-serif
+  
+
+}
