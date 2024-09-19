@@ -1,0 +1,19 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-size: 62,5%;
+}
+h1:hover{
+  background-color: rgb(116, 202, 202);
+  
+}
+h2:not(p){
+  background-color: #80c4ad;
+}
+h3:active{
+  background-color: rgb(162, 150, 228);
+}
+p:last-child{
+  color: #5314e7;
+
+}

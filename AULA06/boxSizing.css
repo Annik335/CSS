@@ -1,0 +1,20 @@
+div{
+  height: 200px;
+  width: 250px;
+  border: dotted 1px;
+  margin: 0.5em;
+}
+.box1{
+  box-sizing: content-box;
+  font-size: 2em;
+   border-color: aqua;
+   padding: 30px;
+   border: dotted 10px blue;
+}
+.box2{
+  box-sizing: border-box;
+  border-color: burlywood;
+  font-size: 2em;
+   padding: 30px;
+   border: dotted 10px blueviolet;
+}

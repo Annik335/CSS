@@ -1,0 +1,17 @@
+*{
+  margin: 2em;
+}
+.container{
+  border: solid blanchedalmond;
+  overflow: auto;
+}
+img{
+float: right;
+filter: drop-shadow(10px 7px 10px orange);
+}
+p{
+   font: 1em sans-serif;
+}
+.par2{
+ clear: right;
+}
