@@ -1,0 +1,28 @@
+@charset "UTF-8"; 
+body{
+    background-color: blanchedalmond;
+}
+ @media screen and (max-width:320px) {
+    h1{
+        color: brown;
+        font-size: 5em;
+    }
+ }
+ @media print and(max-width:880px) {
+    h2{
+        color: blue;
+    }
+ }
+ 
+ @media(min-width:760px) {
+    h3{
+        background-color: brown;
+        color: antiquewhite;
+        text-align: center;
+    }
+ }
+ @media (min-width:1025px) and (max-width:1200px){
+    h2, h3, h4, h5{
+        display: none;
+    }
+ }
