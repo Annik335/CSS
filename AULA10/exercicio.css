@@ -1,0 +1,44 @@
+.container {
+    height: 1000px;
+    width: 1000px;
+    margin: 25px auto;
+    border: dotted 2px rgb(20, 78, 187);
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    grid-template-rows: repeat(5,200px) ;
+    grid-template-areas:
+    "header header header header header"
+    "aside main main main footer"
+    "aside main main main footer"
+    "rodape rodape canto canto canto"
+    "baixo baixo baixo baixo baixo"
+    ;
+}
+.box1{
+    grid-area: header;
+    background-color: aqua;
+}
+.box2{
+    grid-area: aside;
+    background-color: aquamarine;
+}
+.box3{
+    grid-area: main;
+    background-color: rgb(81, 81, 202);
+}
+.box4{
+    grid-area: footer;
+    background-color: blueviolet;
+}
+.box5{
+    grid-area: rodape;
+    background-color: rgb(198, 139, 139);
+}
+.box6{
+    grid-area: canto;
+    background-color: rgb(77, 38, 38);
+}
+.box7{
+    grid-area: baixo;
+    background-color: rgb(180, 43, 43);
+}
